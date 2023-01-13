@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160C32782971CBD000AA30C6 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160C32772971CBD000AA30C6 /* DailyScrum.swift */; };
 		16C1DA8F296471CB00290BEA /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C1DA8E296471CB00290BEA /* ScrumdingerApp.swift */; };
 		16C1DA91296471CB00290BEA /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C1DA90296471CB00290BEA /* MeetingView.swift */; };
 		16C1DA93296471CC00290BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C1DA92296471CC00290BEA /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		160C32772971CBD000AA30C6 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		16C1DA8B296471CB00290BEA /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C1DA8E296471CB00290BEA /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		16C1DA90296471CB00290BEA /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				16C1DA9D296C9D2100290BEA /* Theme.swift */,
+				160C32772971CBD000AA30C6 /* DailyScrum.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160C32782971CBD000AA30C6 /* DailyScrum.swift in Sources */,
 				16C1DA9E296C9D2100290BEA /* Theme.swift in Sources */,
 				16C1DA91296471CB00290BEA /* MeetingView.swift in Sources */,
 				16C1DA8F296471CB00290BEA /* ScrumdingerApp.swift in Sources */,
